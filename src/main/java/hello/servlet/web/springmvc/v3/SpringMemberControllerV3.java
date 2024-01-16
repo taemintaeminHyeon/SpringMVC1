@@ -49,6 +49,8 @@ public class SpringMemberControllerV3 {
         memberRepository.save(member);
 
        model.addAttribute("member",member);
+
+       
         //mv.getModel().put("member",member);
         //mv.addObject("member", member);
         return "save-result";
